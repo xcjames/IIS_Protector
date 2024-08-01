@@ -4,10 +4,10 @@
 This python program analyze IIS log file, and block the malicious IP that have visits exceeds a certain amount, which can be customized by you.
 <br>
 
-## 功能：
+## 功能 Functions
 1. 可以设定对某个IP允许的一天内最大访问次数，超出此次数则立刻将IP加入防火墙阻止访问<br>
 2. IIS日志分析功能，能够检测IP来源并将搜索引擎爬虫加入白名单(例如baidu spider，google spider),这样搜索引擎的爬虫超过指定次数也不会被封。<br>
-  
+
 1. You can set the maximum number of visits allowed to a certain IP in a day. If the number is exceeded, the IP will be immediately added to the firewall to block access<br>
 2. The IIS log analysis function can detect the IP source and add search engine crawlers to the whitelist (such as Baidu spider, Google spider), so that the search engine crawlers will not be blocked even if they exceed the specified number of times.
 
